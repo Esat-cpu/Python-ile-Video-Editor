@@ -14,7 +14,7 @@ class Edit:
         if f1: audio = audio.fx(afx.fadein, 1)
         if f2: audio = audio.fx(afx.fadeout, 1)
 
-        clip.audio = CompositeAudioClip([audio])
+        clip = clip.set_audio(CompositeAudioClip([audio]))
 
     
     def birlestir(self, video1adi, video2adi, f1, f2):
