@@ -27,7 +27,7 @@ class Edit:
 
         if f1: klip1 = klip1.fx(vfx.fadeout, 1)
         if f2: klip2 = klip2.fx(vfx.fadein, 1)
-        clip = concatenate_videoclips([klip1, klip2])
+        clip = concatenate_videoclips([klip1, klip2], method="compose")
 
 
     def kirp(self, videoadi: str, zaman1, zaman2):
