@@ -313,3 +313,4 @@ kapat.place(anchor= CENTER, relx= .9, rely= .95)
 
 
 win.mainloop()
+# denemeler denemeler
