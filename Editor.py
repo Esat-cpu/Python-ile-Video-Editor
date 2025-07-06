@@ -8,7 +8,7 @@ from plyer import notification as bildirim
 win = Tk()
 win.config(bg= "slategrey")
 win.geometry("1000x720")
-win.maxsize(1000, 720)
+win.maxsize(1080, 800)
 win.minsize(1000, 720)
 win.title("Editor")
 
